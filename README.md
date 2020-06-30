@@ -7,7 +7,7 @@ Click here for a live, interactive version of the code:
   - Run the program from the command line by entering password(s) as arguments like this:
 	$ python3 checkmypass.py password1 password2 etc
 
-This is the process the program follows:
+This is what the program does step-by-step:
   - The user enters a password(s) through the command line using the sys library.
   - A hashed password is generated with a SHA-1 hashing function using the hashlib library.
   - The first 5 characters of the hashed password are sent to the haveibeenpwned API using the requests library, and the API responds with leaked passwords from its database that match the starting hash.
