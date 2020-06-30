@@ -2,10 +2,8 @@
 A tool to check if a password has ever been leaked during a data breach using haveibeenpwned without sending the full password to the API.
 
 Click here for a live, interactive version of the code:
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/kdhenderson/password_checker/master)
-
-To run: 
-  - Click on the New dropdown button and select Terminal
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/kdhenderson/password_checker/master) 
+  - Click on the 'New' dropdown button and select 'Terminal'
   - Run the program from the command line by entering password(s) as arguments like this:
 	$ python3 checkmypass.py password1 password2 etc
 
